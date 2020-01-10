@@ -1,6 +1,6 @@
 Name:           maven-war-plugin
 Version:        2.3
-Release:        8%{?dist}
+Release:        9%{?dist}
 Summary:        Maven WAR Plugin
 
 Group:          Development/Libraries
@@ -61,6 +61,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.3-9
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 2.3-8
 - Migrate away from mvn-rpmbuild (Resolves: #997493)
 
